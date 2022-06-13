@@ -1,13 +1,170 @@
-body {
+/* *{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+   'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body, html{
+  height: 100%;
+  width: 100%;
+  background-color: red
+  
 }
+#root{
+  background-color: yellow;
+  height: 100%;
+}
+main{
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.block-items{
+  display: grid; */
+  /* background-color: red; */
+  /* min-height: 100%;
+  min-width: 100%;
+  grid-template-rows: 1fr 1fr;
+  place-items: center;
+  position: relative;
+
+
+}
+ .block-items .dark{
+  background-color: #2E2E32;
+  height: 100%;
+  width: 100%;
+} 
+
+.block-items .fair{
+  background-color: #F1F6FB;
+  height: 100%;
+  width: 100%;
+  
+}
+.people{
+  position: absolute;
+  top: 300px;
+  background-color: #fff;
+  height: 50%;
+  width: 50%;
+
+
+}
+.people .middle{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  gap: 30px;
+  place-items: center;
+  
+  position: relative;
+  
+}
+.people .middle .shield{
+  background-color: #F1F6FB;
+  height: 30%;
+  width: 100%;
+  border-bottom: 10px transparent solid;
+  
+}
+
+
+
+.container{ */
+  
+  /* background-color: #fff; */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: relative;
+  gap: 10px;
+  
+
+}
+.container button{
+  border: 2px black solid;
+  background-color:#4BA2E5;
+  font-size: 20px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  color: white;
+
+
+} */
+/* .container figure{
+  height: 90px;
+  width: 90px;
+  position: absolute;
+  bottom: 110%;
+  background-color: #fff; */
+  /* top: -100%; */
+  /* left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container figure img{
+  height: 90%;
+  width: 90%;
+  border-radius: 50%;
+} */
+/* .display{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 18px;
+  align-items: center;
+  flex: 1;
+} */
+
+
+/* .buttons{
+  display: block;
+  /* flex: 1; */
+  /* gap: 50px; */
+  /* margin-left: 20px; */
+  /* background-color: aqua; */
+  /* padding: 20px 0px; */
+  /* padding: 10px 0px; */
+
+/* }  */
+/* .buttons button{
+  border: none;
+  background-color: transparent;
+  color: #627E9A;
+  margin-left: 40px;
+
+} */
+.block-items .fair{
+  background-color: #F1F6FB;
+
+}
+.people .middle .shield{
+  background-color: #F1F6FB;
+
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+
+
+
+
